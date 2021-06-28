@@ -232,9 +232,9 @@ function saveData (event) {
          allScores = JSON.parse(allScores); //If there is a data input the data string will be modified to an object
        }
        
-       allScores.push(finalScore);
+       allScores.push(finalScore); 
        
-       allScores.sort(function (a, b) {
+       allScores.sort(function (a, b) { //Sorting the scores from highest to lowest
         return b.scoreData - a.scoreData ;
        });
        
