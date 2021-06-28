@@ -223,23 +223,27 @@ function saveData (event) {
         scoreData: score
       }
 
-      //Setting local storage key value to save data 
-
-      var allScores = localStorage.getItem("allScores");
+        var allScores = localStorage.getItem("allScores");
   
-      if (allScores === null){
+        if (allScores === null){
         allScores = []; //If there is no data, it will return an empty array
 
-      } else {
-        allScores = JSON.parse(allScores); //If there is a data input the data string will be modified to an object
-      }
+       } else {
+         allScores = JSON.parse(allScores); //If there is a data input the data string will be modified to an object
+       }
+       
+       allScores.push(finalScore);
+       
+       allScores.sort(function (a, b) {
+        return b.scoreData - a.scoreData ;
+       });
+       
+       var newScore = JSON.stringify(allScores); //all new scores will be modified to a string on order to be able to be saved in the local storage
 
-      //push finalScore object into all scores key value from the local storage
-      allScores.push(finalScore);
-      var newScore = JSON.stringify(allScores); //all new scores will be modified to a string on order to be able to be saved in the local storage
-      localStorage.setItem("allScores", newScore);
-
-      showHighscore(); //When button clicked the showHighscores function will get executed
+       localStorage.setItem("allScores", newScore);
+       
+       showHighscore(); //When button clicked the showHighscores function will get executed
+      
     }
   }
 
