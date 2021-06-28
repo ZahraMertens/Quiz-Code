@@ -133,6 +133,8 @@ function showEndScreen (){
   var inputElLastName = document.createElement("input");
   var submitEl = document.createElement("input");
   var hEl = document.createElement("h1");
+  var main = document.querySelector("main");
+  main.setAttribute("class", "main-El")
 
   mainContainer.setAttribute("class", "container-main");
   

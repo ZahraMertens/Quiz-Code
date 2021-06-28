@@ -12,9 +12,6 @@ header {
     justify-content: center;   
 }
 
-main {
-
-}
 
 .inline-content {
     border-radius: 25px;
@@ -25,21 +22,6 @@ main {
     text-align: center;
 }
 
-.main-container {
-    display: flex;
-    justify-content: center;
-}
-
-header h1 {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.quiz-box {
-    text-align: center;
-    justify-content: center;
-}
-
 .view-score {
     padding: 10px;
     font-size: 20px;
@@ -47,6 +29,22 @@ header h1 {
     background-color: rgb(161, 161, 161);
     border-radius: 15px;
     border: 3px solid rgb(0, 0, 0);
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.quiz-box {
+    text-align: center;
+    justify-content: center;
 }
 
 .start-button {
@@ -67,12 +65,6 @@ header h1 {
     color: white;
 }
 
-input {
-    text-align: left;
-    width: 50%;
-}
-
-
 .question-start,
 .answer-start {
     background-color: white;
@@ -81,14 +73,10 @@ input {
     padding: 10px;
     margin-top: 10px;
     font-size: 20px;
-    width: 400px;
-    justify-content: center; 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
 
 .question-start {
+    font-weight: bolder;
     background-color: rgb(196, 196, 196);
 }
 
@@ -103,14 +91,11 @@ li {
 
 li:hover {
     cursor: grab;
+    background-color: rgb(169, 116, 255);
 }
 
 ul {
    padding-inline-start: 0px;
-}
-
-.question-start {
-    font-weight: bolder;
 }
 
 .solution-container {
@@ -121,9 +106,15 @@ ul {
 
 .container-main {
     padding: 30px;
-    margin: 15px;
-    display: table;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.container-main h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
 }
 
 .label {
@@ -131,6 +122,7 @@ ul {
   font-size: 20px;
   padding: 15px;
   display: block;
+  text-align: center;
 }
 
 .name-Input,
@@ -142,8 +134,7 @@ ul {
     border-radius: 5px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
     margin: auto;
-    width: 150px;
-    display: inline;
+    display: block;
 }
 
 .name-Input:hover,
@@ -154,14 +145,15 @@ ul {
 .submit-btn {
    background-color: rgb(121, 182, 119);
    padding: 15px;
-   margin: 10px;
    font-size: 18px;
    color: black;
    border-radius: 5px;
    border: solid 1px black;
    display: block;
-   text-align: center;
    width: 100px;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
 }
 
 .header-submit {
@@ -174,7 +166,7 @@ ul {
 .p-Element {
     font-size: 20px;
     font-weight: bold;
-    display: inline;
+    text-align: center;
 }
 
 .score-list-el {
