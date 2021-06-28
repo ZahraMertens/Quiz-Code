@@ -222,6 +222,23 @@ form {
    margin-top: 10px;
 }
 
+@media screen and (max-width:768px){
+    body {
+    width: 100%;
+    }
+
+    .inline-content {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    main {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+}
+
 @media screen and (max-width:375px){
     body {
     width: 100%;
