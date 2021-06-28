@@ -226,6 +226,7 @@ function saveData (event) {
       //Setting local storage key value to save data 
 
       var allScores = localStorage.getItem("allScores");
+      
       if (allScores === null){
         allScores = []; //If there is no data, it will return an empty array
 
@@ -277,9 +278,7 @@ function showHighscore () {
       for (var i = 0; i <allScores.length; i++){
         var liElCreate = document.createElement("li");
         liElCreate.textContent = allScores[i].scoreData + "/5" + " " + allScores[i].fname + " " + allScores[i].laName;
-        //liElCreate.allScores[i].scoreData.numbers.sort((a, b) => b-a);
         ulElCreate.appendChild(liElCreate);
-        
         liElCreate.setAttribute("class", "score-list-el")
       }
     }
@@ -288,8 +287,8 @@ function showHighscore () {
   document.body.appendChild(btnWebpage);
   document.body.appendChild(btnClearScore);
   
-  btnWebpage.addEventListener("click", showWebpage); //goes to the default start of the webpage
-  btnClearScore.addEventListener("click", clearScore); //clears the local storage, so all scores
+  btnWebpage.addEventListener("click", showWebpage);
+  btnClearScore.addEventListener("click", clearScore);
 }
 
 function clearScore(event){
