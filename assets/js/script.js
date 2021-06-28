@@ -226,7 +226,7 @@ function saveData (event) {
       //Setting local storage key value to save data 
 
       var allScores = localStorage.getItem("allScores");
-      
+  
       if (allScores === null){
         allScores = []; //If there is no data, it will return an empty array
 

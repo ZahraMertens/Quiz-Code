@@ -222,6 +222,7 @@ form {
    margin-top: 10px;
 }
 
+/*Ipad screen*/
 @media screen and (max-width:768px){
     body {
     width: 100%;
@@ -239,6 +240,7 @@ form {
 
 }
 
+/*Adjustment to Smartphone screen*/
 @media screen and (max-width:375px){
     body {
     width: 100%;
