@@ -4,8 +4,8 @@
 
 The deployed Webpage is a code related quiz created with HTML, CSS and JavaScript
 
-URL of the Quiz: https://zahramertens.github.io/Quiz-Code/
-URL of the GitHub Repo: https://github.com/ZahraMertens/Quiz-Code.git
+* URL of the Quiz: https://zahramertens.github.io/Quiz-Code/
+* URL of the GitHub Repo: https://github.com/ZahraMertens/Quiz-Code.git
 
 
 ## Table if Contents
@@ -58,6 +58,11 @@ The following GIF shows the web applications apperance and functionality:
 
 ## Credits
 
-https://www.codemahal.com/video/javascript-quiz-tutorial/
-https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
+* https://www.codemahal.com/video/javascript-quiz-tutorial/
+* https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
+* https://ezgif.com/crop/ezgif-2-a0417ce0f339.gif
+* https://stackoverflow.com/questions/32202482/stop-a-countdown-timer-after-a-certain-time
+* https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+* https://love2dev.com/blog/absolute-centering-css/
+
 
