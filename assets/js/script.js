@@ -262,7 +262,7 @@ function showHighscore () {
   btnClearScore.setAttribute("type", "button");
   btnClearScore.setAttribute("id", "button-clear");
 
-  btnClearScore.textContent = "Clear Highscores";
+  btnClearScore.textContent = "Clear All Scores";
   highScoreHeader.textContent = "Last Games Scores";
 
   //Accessing scores from local storage

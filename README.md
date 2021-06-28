@@ -2,11 +2,11 @@
 
 ## General Information
 
-```
 The deployed Webpage is a code related quiz created with HTML, CSS and JavaScript
 
-URL of my Portfolio: https://zahramertens.github.io/Portfolio-ZahraMertens/
-```
+URL of the Quiz: https://zahramertens.github.io/Quiz-Code/
+URL of the GitHub Repo: https://github.com/ZahraMertens/Quiz-Code.git
+
 
 ## Table if Contents
 1. [General Information](#general-informaion)
@@ -19,48 +19,45 @@ URL of my Portfolio: https://zahramertens.github.io/Portfolio-ZahraMertens/
 
 ## Task Describtion
 
-The task was to create a web application from scratch. The webpage is a portfolio which we can add to as the course progresses.
+This is a code related quiz application using HTML, CSS, and Javascript. This application demonstrates the use of Javascript to provide quiz questions & answers and collect user data to determine whether the answers to a question is correct. After it generates a score and appends a highscore page of results from the user data.
 
-The portfolio is ment to demonstarte our skills and talents of HTML and CSS to employers that might want to hire someone, with a focus on flexbox, media queries and CSS variables. The portfolio demonstrates the highlights of our work and the process behind it to maximize the chances to find a job. The portfolio is ment to align with certain criteria, mentioned below.
+This project has been deployed to GitHub Pages. Please follow the deployed link which is displayed in (#general-informaion) to start the quiz.
 
-**Note:** As I have only created one webpage so far, this is the only one that is linked and the other containers are filled with placeholder images.
+The task/ homework should prepare us for the journey to become a full-stack developer as we will likely be asked to complete a coding assessment perhaps as part of an interview process.
+The webpage is a timed coding quiz, which confornts the user with multiple-choice questions.
+
 
 ## Actual Behaviour
 
-```
-* You are presented with my name, a recent photo, and links to sections about me, my work, and how to contact me.
+* WHEN I click the start button THEN a timer starts and I am presented with a question
 
-* When you click on the links in the navigation bar, the UI scrolls to the corresponding section.
+* WHEN I answer a question THEN I am presented with another question
 
-* The my-work section includes images of my applications (atm placeholder images) which are titled.
+* WHEN I answer a question incorrectly THEN time is subtracted from the clock
 
-* The first image of the application is larger than the other ones and they all have hover functions.
+* WHEN all questions are answered or the timer reaches 0 THEN the game is over
 
-* When you click on the first/larger image it will take you to the first projects deployed webpage.
-
-* The layout is responsive and adapts to different viewports, such as smartphones and Ipads.
-```
+* WHEN the game is over THEN I can save my initials and my score
 
 ## 🏆 Bonus
-```
 
-* When you click on the Resume PDF element in the navigation bar, you will download my resume.
 
-* When you click on the GitHub or LinkedIn element in the footer, it will lead you too my profile on both social media websites.
-```
+* WHEN I answer a question THEN the correct or wrong question will be displayed on the webpage
+
+* The start webpage allows the user to go straight to the highscore page
+
+* WHEN I save my initials and score I will see a highscore screen
+
+* WHEN I click the -clear all scores- button, the local Storage gets cleared.
 
 ## Mock-Up
 
 The following GIF shows the web applications apperance and functionality:
 
-![portfolio-demo](./Assets/images/portfolio.gif)
+![Code-Quiz-Demo](./assets/images/code-quiz.gif)
 
 ## Credits
 
-https://www.w3schools.com/html/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-properties
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
-https://css-tricks.com/snippets/css/style-links-depending-on-destination/
-https://htmlcheatsheet.com/css/
-https://www.w3schools.com/tags/att_a_download.asp
+https://www.codemahal.com/video/javascript-quiz-tutorial/
+https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
+
