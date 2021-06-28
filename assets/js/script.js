@@ -65,6 +65,7 @@ function renderQuiz () {
    
   addChoices.forEach(function (newInput){
     var listEl = document.createElement("li");
+    listEl.setAttribute("class", "li-answer")
     listEl.textContent = newInput;
     createUlEl.appendChild(listEl);
     listEl.addEventListener("click", result);

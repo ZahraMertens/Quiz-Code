@@ -41,7 +41,6 @@ header h1 {
     justify-content: center;
 }
 
-
 .quiz-box {
     text-align: center;
     justify-content: center;
@@ -65,6 +64,8 @@ header h1 {
     color: white;
 }
 
+
+/*Question and answer*/
 .question-start,
 .answer-start {
     background-color: white;
@@ -80,7 +81,7 @@ header h1 {
     background-color: rgb(196, 196, 196);
 }
 
-li {
+.li-answer {
     border: black 1px solid;
     padding: 10px;
     margin: 10px;
@@ -89,7 +90,7 @@ li {
     background-color: rgb(208, 224, 255);
 }
 
-li:hover {
+.li-answer:hover {
     cursor: grab;
     background-color: rgb(169, 116, 255);
 }
@@ -98,10 +99,10 @@ ul {
    padding-inline-start: 0px;
 }
 
+/*Submit Details Screen*/
 .solution-container {
     font-weight: bolder;
-    width: 500px;
-    margin: 20px;
+    margin-top: 10px;
 }
 
 .container-main {
@@ -109,7 +110,15 @@ ul {
     margin: 0 auto;
 }
 
-.container-main h1 {
+.header-submit {
+    border-radius: 15px;
+    background-color: rgb(239, 216, 253);
+    padding: 15px;
+    text-align: center;
+}
+
+.p-Element {
+    font-size: 20px;
     text-align: center;
 }
 
@@ -118,11 +127,10 @@ form {
 }
 
 .label {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 20px;
-  padding: 15px;
   display: block;
-  text-align: center;
+  padding: 15px;
 }
 
 .name-Input,
@@ -134,86 +142,106 @@ form {
     border-radius: 5px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
     margin: auto;
-    display: block;
 }
 
 .name-Input:hover,
 .lastName-Input:hover {
-    background-color: rgb(243, 193, 255);
+    background-color: rgb(243, 217, 255);
 }
 
 .submit-btn {
    background-color: rgb(121, 182, 119);
-   padding: 15px;
+   padding: 12px;
    font-size: 18px;
    color: black;
-   border-radius: 5px;
+   border-radius: 10px;
    border: solid 1px black;
    display: block;
-   width: 100px;
    margin: 0 auto;
    text-align: center;
    margin-top: 10px;
 }
 
-.header-submit {
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: rgb(239, 216, 253);
-    padding: 15px;
+.submit-btn:hover {
+    background-color: rgb(101, 173, 98);
+    border: solid 3px rgb(255, 255, 255);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
 }
 
-.p-Element {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.score-list-el {
-    list-style-type:decimal;
-    background-color: rgb(239, 216, 253);
-    width: 200px;
-    cursor: none;
-}
-
-#button-goBack {
-    background-color: rgb(121, 182, 119);
-    padding: 15px;
-    margin: 10px;
-    font-size: 18px;
-    color: black;
-    border-radius: 5px;
-    border: solid 1px black;
-}
-
-#button-goBack:hover {
-    border: solid 3px black;
-    background-color: green;
-    color: white;
-    cursor: pointer;
-}
-
-#button-clear {
-    background-color: rgb(121, 182, 119);
-    padding: 15px;
-    margin: 10px;
-    font-size: 18px;
-    color: black;
-    border-radius: 5px;
-    border: solid 1px black;
-}
-
-#button-clear:hover {
-    border: solid 3px black;
-    background-color: green;
-    color: white;
-    cursor: pointer;
-}
+/*Highscore screen*/
 
 .header-highscore {
     text-align: center;
 }
 
-.ul-score {
-    display: center;
+.score-list-el {
+    list-style-type: decimal;
+    background-color: rgb(239, 216, 253);
+    width: 200px;
+    border: black 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
 }
+
+.ul-score {
+    margin: auto;
+}
+
+#button-goBack {
+   background-color: rgb(121, 182, 119);
+   padding: 12px;
+   font-size: 18px;
+   color: black;
+   border-radius: 10px;
+   border: solid 1px black;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 30px;
+}
+
+#button-goBack:hover,
+#button-clear:hover {
+    background-color: rgb(101, 173, 98);
+    border: solid 3px rgb(255, 255, 255);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+#button-clear {
+   background-color: rgb(121, 182, 119);
+   padding: 12px;
+   font-size: 18px;
+   color: black;
+   border-radius: 10px;
+   border: solid 1px black;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
+}
+
+@media screen and (max-width:375px){
+    body {
+    width: 100%;
+    }
+
+    .inline-content {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    main {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .question-start,
+    .answer-start {
+        font-size: 15px;
+    }
+}
+
+
+
