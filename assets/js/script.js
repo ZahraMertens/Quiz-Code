@@ -262,7 +262,7 @@ function showHighscore () {
   btnClearScore.setAttribute("type", "button");
   btnClearScore.setAttribute("id", "button-clear");
 
-  btnClearScore.textContent = "Clear All Scores";
+  btnClearScore.textContent = "Clear Highscores";
   highScoreHeader.textContent = "Last Games Scores";
 
   //Accessing scores from local storage
@@ -277,7 +277,9 @@ function showHighscore () {
       for (var i = 0; i <allScores.length; i++){
         var liElCreate = document.createElement("li");
         liElCreate.textContent = allScores[i].scoreData + "/5" + " " + allScores[i].fname + " " + allScores[i].laName;
+        //liElCreate.allScores[i].scoreData.numbers.sort((a, b) => b-a);
         ulElCreate.appendChild(liElCreate);
+        
         liElCreate.setAttribute("class", "score-list-el")
       }
     }

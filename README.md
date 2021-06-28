@@ -11,10 +11,9 @@ The deployed Webpage is a code related quiz created with HTML, CSS and JavaScrip
 ## Table if Contents
 1. [General Information](#general-informaion)
 2. [Task Description](#task-description)
-3. [Changes that have been made](#changes-that-have-been-made)
-4. [Mock-Up](#mock-up)
-5. [Bonus](#bonus)
-6. [Credits](#credits)
+3. [Mock-Up](#mock-up)
+4. [Bonus](#bonus)
+5. [Credits](#credits)
 
 
 ## Task Describtion
