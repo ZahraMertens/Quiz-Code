@@ -4,7 +4,7 @@
 
 The deployed Webpage is a code related quiz created with HTML, CSS and JavaScript
 
-* URL of the Quiz: https://zahramertens.github.io/Quiz-Code/
+* Deployed URL of the Quiz: https://zahramertens.github.io/Quiz-Code/
 * URL of the GitHub Repo: https://github.com/ZahraMertens/Quiz-Code.git
 
 
